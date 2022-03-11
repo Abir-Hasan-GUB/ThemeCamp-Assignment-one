@@ -1,0 +1,636 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+body p,
+body a,
+body li {
+  font-size: 1.6rem;
+}
+
+.button {
+  padding: 1rem 3.6rem;
+  border: 1px solid #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+#navController {
+  background-color: #28293e;
+}
+#navController * {
+  color: #fff;
+}
+#navController .navbar-brand {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+#navController .navbar-brand .logo {
+  padding-right: 1.4rem;
+}
+#navController .navbar-nav .nav-item {
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+#navController .navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+#navController .navButton {
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+#navController .navButton:hover {
+  background: #ef6d58;
+  border-color: #ef6d58;
+}
+
+.sectionTitle {
+  font-weight: 800;
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+  letter-spacing: -1px;
+}
+
+.sectionMiniTitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+
+#banner {
+  background-color: #28293e;
+}
+#banner .bannerCtrl {
+  padding: 10.4rem 0;
+}
+#banner .bannerTitle {
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8rem;
+  letter-spacing: -0.2rem;
+  color: #ffffff;
+  padding: 2.4rem 0;
+}
+#banner .bannerDetails {
+  color: rgba(255, 255, 255, 0.64);
+}
+#banner .bannerBtn {
+  background: #ef6d58;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  border-color: #ef6d58;
+  color: #ffffff;
+  margin-top: 2.4rem;
+}
+#banner .bannerBtn:hover {
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  background: transparent;
+}
+
+.paddingAdded {
+  padding: 9rem 0;
+}
+
+#help {
+  background-color: #fdf0e9;
+}
+#help .sectionTitle {
+  padding: 2rem 0;
+}
+#help .helpCards .card {
+  padding: 3rem 1.5rem;
+  background: transparent;
+}
+#help .helpCards .card .card-title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #391400;
+}
+#help .helpCards .card .card-text,
+#help .helpCards .card .learn-more {
+  line-height: 3.2rem;
+  color: rgba(57, 20, 0, 0.64);
+  text-decoration: none;
+}
+#help .helpCards .card-one {
+  border: 1px solid #f3d1bf;
+  border-radius: 6px 0px 0px 6px;
+}
+#help .helpCards .card-two {
+  border-radius: 0px 6px 6px 0px;
+}
+#help .moreService {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 4.5rem;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+#help .moreService a {
+  color: #391400;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+
+#leatesWorks {
+  background-color: #28293e;
+}
+#leatesWorks .exploreBtn {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+#leatesWorks .exploreBtn:hover {
+  background: #ef6d58;
+  border-color: #ef6d58;
+}
+#leatesWorks .worksDemoCards {
+  padding-top: 9rem;
+}
+#leatesWorks .worksDemoCards .card {
+  border: none;
+  background: transparent;
+  position: relative;
+}
+#leatesWorks .worksDemoCards .card .workImg {
+  max-height: 57rem;
+}
+#leatesWorks .worksDemoCards .card .workText {
+  left: 4.8rem;
+  bottom: 5.1rem;
+  position: absolute;
+}
+#leatesWorks .worksDemoCards .card .workText .tag {
+  line-height: 3.2rem;
+  color: #391400;
+  padding: 0.25rem 1.5rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  display: inline-block;
+}
+#leatesWorks .worksDemoCards .card .workText .designName {
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  color: #fff;
+  padding-top: 1rem;
+}
+
+#proffesion {
+  background-color: #fdf0e9;
+}
+#proffesion .abutBtn {
+  color: #391400;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+#proffesion .ability {
+  color: rgba(57, 20, 0, 0.64);
+}
+#proffesion .abutBtn:hover {
+  background: #ef6d58;
+  border-color: #ef6d58;
+  color: #fff;
+}
+#proffesion .percentage .card {
+  padding: 2.5rem 1.5rem;
+  background: transparent;
+}
+#proffesion .percentage .card .card-title {
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  color: #391400;
+}
+#proffesion .percentage .cardOne {
+  border: 1px solid #f3d1bf;
+  border-radius: 6px 0px 0px 6px;
+}
+#proffesion .percentage .cardTwo {
+  border: 1px solid #f3d1bf;
+  border-radius: 0px 6px 6px 0px;
+}
+
+#features {
+  background: #28293e;
+}
+#features .feturesList {
+  padding: 0;
+  padding-top: 2rem;
+}
+#features .feturesList li {
+  color: rgba(255, 255, 255, 0.64);
+  padding-bottom: 1rem;
+  list-style-position: inside;
+  list-style: none;
+}
+
+#getStartd {
+  background: #f9e5da;
+}
+#getStartd .container {
+  position: relative;
+}
+#getStartd .container .sparkImg {
+  position: absolute;
+  top: -36%;
+  left: 0;
+}
+#getStartd .sectionSemiTitle {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #391400;
+  padding: 2rem 0;
+}
+#getStartd .getStartBtn {
+  background: #ef6d58;
+  color: #fff;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}
+#getStartd .getStartBtn:hover {
+  border-color: #ef6d58;
+  background: transparent;
+  color: #391400;
+}
+
+#testimonial {
+  background: #fdf0e9;
+}
+#testimonial .testimonialCards {
+  padding-top: 5rem;
+}
+#testimonial .testimonialCards .card {
+  padding: 3.5rem;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid #f3d1bf;
+  border-radius: 6px 0px 0px 6px;
+  background: transparent;
+  cursor: pointer;
+  min-height: 44rem;
+}
+#testimonial .testimonialCards .card:hover {
+  min-height: 48rem;
+}
+#testimonial .testimonialCards .card:hover {
+  background: #fff;
+  border-color: #fff;
+}
+#testimonial .testimonialCards img {
+  padding-right: 0.75rem;
+}
+#testimonial .testimonialCards .card-text {
+  color: rgba(57, 20, 0, 0.64);
+  padding-bottom: 3.5rem;
+  padding-top: 2rem;
+  line-height: 3.2rem;
+}
+#testimonial .testimonialCards .card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  margin: 0;
+}
+#testimonial .testimonialCards .deg {
+  color: #391400;
+  margin: 0;
+}
+#testimonial .testimonialCards .card-footer {
+  transition: all 0.4s ease-in-out;
+  background: transparent;
+  border: none;
+}
+#testimonial .seeAllBtn {
+  background: #fff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+}
+#testimonial .seeAllBtn:hover {
+  background: #ef6d58;
+  color: #fff;
+}
+
+#faq {
+  background-color: #28293e;
+}
+#faq .faqTxt {
+  color: rgba(255, 255, 255, 0.64);
+}
+#faq .accordion-item {
+  background: transparent;
+}
+#faq .faqAccrodion {
+  padding-left: 7rem;
+}
+#faq .faqAccrodion .accordion-header {
+  background: transparent;
+  border: 1px solid #3a3c56;
+  border-radius: 0px 0px 6px 6px;
+  padding: 1.5rem 0;
+}
+#faq .faqAccrodion .accordion-header button {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  background: transparent;
+}
+#faq .faqAccrodion .accordion-body {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  background: #fff;
+}
+#faq .faqAccrodion .accordion-button::after {
+  flex-shrink: 0;
+  width: 4.25rem;
+  height: 4.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(../images/up.png);
+  background-repeat: no-repeat;
+  background-size: 4.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+#faq .brands {
+  padding-top: 7rem;
+}
+
+#blogs {
+  background: #fdf0e9;
+}
+#blogs .bigBlog,
+#blogs .smlBlog {
+  padding-top: 5rem;
+}
+#blogs .blogCategory,
+#blogs .blogTag {
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+#blogs .blogTitle {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+#blogs .blogDate {
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+#blogs .discoverBtn {
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+}
+#blogs .smlBlog .card {
+  background: transparent;
+  border: none;
+  padding-bottom: 2rem;
+}
+#blogs .smlBlog .card .card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+#blogs .smlBlog .card .card-text {
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+#blogs .newsLetter {
+  padding: 5rem 0;
+}
+#blogs .newsLetter .newsTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+#blogs .newsLetter .newsTxt {
+  color: rgba(57, 20, 0, 0.64);
+}
+#blogs .newsLetter input {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: rgba(57, 20, 0, 0.64);
+}
+#blogs .newsLetter .emailBtn {
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.25rem 2rem;
+  color: #391400;
+}
+
+#contact {
+  background-color: #28293e;
+}
+#contact .getInTouch {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 3rem;
+}
+#contact .getTouchTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  padding: 2rem 0;
+}
+#contact input {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: rgba(57, 20, 0, 0.64);
+}
+#contact select {
+  height: 4.5rem;
+  font-size: 1.6rem;
+  color: rgba(57, 20, 0, 0.64);
+}
+#contact textarea {
+  font-size: 1.6rem;
+  color: rgba(57, 20, 0, 0.64);
+}
+#contact .submitBtn {
+  background: #ef6d58;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+#contact .contactTxt {
+  padding: 3rem 0;
+  color: rgba(255, 255, 255, 0.64);
+}
+#contact .contactInfo p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#helpTOBuild {
+  background: #fdf0e9;
+}
+#helpTOBuild .helpTxt {
+  color: rgba(57, 20, 0, 0.64);
+}
+#helpTOBuild .helpBtn {
+  background: #ef6d58;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#footer {
+  background-color: #28293e;
+}
+#footer .nav-link {
+  color: #fff;
+}
+#footer .footerTItle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+#footer .socialLinks a {
+  padding-right: 1rem;
+}
+#footer .copyright {
+  padding-top: 4rem;
+  border-top: 1px solid #3a3c56;
+}
+#footer .copyright .copyrightTxt {
+  color: rgba(255, 255, 255, 0.64);
+}
+
+@media screen and (max-width: 768px) and (max-width: 991px) {
+  #banner .bannerTitle {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  #banner .bannerDetails br {
+    display: none;
+  }
+  .paddingAdded {
+    padding: 5rem 0;
+  }
+  .sectionTitle {
+    font-size: 3.6rem;
+  }
+  #leatesWorks .worksDemoCards .card {
+    margin-bottom: 2rem;
+  }
+  .percentage {
+    padding-top: 3rem;
+  }
+  p br {
+    display: none;
+  }
+  .getStartDetailTxt {
+    padding-top: 3rem;
+  }
+  .sectionTitle br {
+    display: none;
+  }
+  #faq .faqAccrodion {
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+  #faq .faqAccrodion .accordion-header button {
+    font-size: 18px;
+  }
+  #faq .faqAccrodion .accordion-header {
+    padding: 0.5rem 0;
+  }
+  .brands {
+    text-align: center;
+  }
+  .brands img {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+  #blogs .blogTitle {
+    font-size: 29px;
+    line-height: 36px;
+  }
+  .sectionTitle {
+    line-height: 4.4rem;
+    padding-bottom: 1.5rem;
+  }
+  .sectionMiniTitle {
+    padding-top: 3rem;
+  }
+  #helpTOBuild .helpBtn {
+    margin-bottom: 3rem;
+  }
+  #banner .bannerCtrl {
+    padding: 3.4rem 0;
+  }
+  #footer {
+    text-align: center;
+  }
+  #getStartd .container .sparkImg {
+    position: absolute;
+    top: -20%;
+    left: 0;
+  }
+}
