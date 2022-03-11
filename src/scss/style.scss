@@ -1,0 +1,145 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+
+    p,
+    a,
+    li {
+        font-size: 1.6rem;
+    }
+}
+
+.button{
+    padding: 1rem 3.6rem;
+    border: 1px solid #fff;
+    font-size: 1.4rem;
+    font-weight: 900;
+    transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+}
+
+#navController{
+    background-color: #28293E;
+    *{
+        color: #fff;
+    }
+    .navbar-brand{
+        font-weight: 700;
+        font-size: 2.4rem;
+        .logo{
+            padding-right: 1.4rem;
+        }
+    }
+    .navbar-nav{
+        .nav-item {
+            padding-right: 4rem;
+            padding-left: 4rem;
+            .nav-link {
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+        }
+    }
+    .navButton{
+        border: 1px solid rgba(255, 255, 255, 0.295743);
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+}
+.navButton:hover{
+    background: #EF6D58;
+    border-color: #EF6D58;
+}
+}
+
+.sectionMiniTitle{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    color: #EF6D58;
+}
+
+#banner {
+    background-color: #28293E;
+    .bannerCtrl{
+        padding: 10.4rem 0;
+    }
+    .bannerTitle{
+font-weight: 800;
+font-size: 7.2rem;
+line-height: 8rem;
+letter-spacing: -.2rem;
+color: #FFFFFF;
+padding: 2.4rem 0;
+    }
+    .bannerDetails{
+        color: rgba(255, 255, 255, 0.64);
+    }
+    .bannerBtn{
+        background: #EF6D58;
+        border-radius: .6rem;
+        -webkit-border-radius: .6rem;
+        -moz-border-radius: .6rem;
+        -ms-border-radius: .6rem;
+        -o-border-radius: .6rem;
+        border-color: #EF6D58;
+        color: #FFFFFF;
+        margin-top: 2.4rem;
+}
+.bannerBtn:hover{
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    background: transparent;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    
+}

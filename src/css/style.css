@@ -1,0 +1,81 @@
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Epilogue', sans-serif; }
+  body p,
+  body a,
+  body li {
+    font-size: 1.6rem; }
+
+.button {
+  padding: 1rem 3.6rem;
+  border: 1px solid #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out; }
+
+#navController {
+  background-color: #28293E; }
+  #navController * {
+    color: #fff; }
+  #navController .navbar-brand {
+    font-weight: 700;
+    font-size: 2.4rem; }
+    #navController .navbar-brand .logo {
+      padding-right: 1.4rem; }
+  #navController .navbar-nav .nav-item {
+    padding-right: 4rem;
+    padding-left: 4rem; }
+    #navController .navbar-nav .nav-item .nav-link {
+      font-size: 1.6rem;
+      font-weight: 400; }
+  #navController .navButton {
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem; }
+  #navController .navButton:hover {
+    background: #EF6D58;
+    border-color: #EF6D58; }
+
+.sectionMiniTitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  color: #EF6D58; }
+
+#banner {
+  background-color: #28293E; }
+  #banner .bannerCtrl {
+    padding: 10.4rem 0; }
+  #banner .bannerTitle {
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8rem;
+    letter-spacing: -.2rem;
+    color: #FFFFFF;
+    padding: 2.4rem 0; }
+  #banner .bannerDetails {
+    color: rgba(255, 255, 255, 0.64); }
+  #banner .bannerBtn {
+    background: #EF6D58;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+    border-color: #EF6D58;
+    color: #FFFFFF;
+    margin-top: 2.4rem; }
+  #banner .bannerBtn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    background: transparent; }
